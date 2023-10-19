@@ -1,0 +1,841 @@
+@import url('https://fonts.googleapis.com/css2?family=Antonio:wght@100;200;300;400;500;600;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+  --main-font: 'Work Sans', sans-serif;
+  /* --primary: #035397; */
+  --primary: #0A2BA0;
+  --secondary: #FCD900;
+  --whatsapp: #23A514;
+  --primary-text: #262626;
+  --secondary-text: #fff;
+  --grey: #f1f2f2;
+  --heading-font: 'Antonio', sans-serif;
+  --dark-green: #3E7E01;
+}
+
+* {
+  font-family: var(--main-font);
+  /* font-size: 16px; */
+}
+
+/* h1,
+.heading-span {
+    font-size: 2.5rem;
+    font-family: var(--heading-font);
+} */
+
+
+.desk-nav ul {
+  list-style: none;
+  width: 50%;
+}
+
+.desk-nav ul li a {
+  text-transform: capitalize;
+  text-decoration: none;
+  font-size: 1.1rem;
+  color: var(--primary-text);
+}
+
+.desk-nav,
+.mobile-nav {
+  width: 100%;
+  height: 80px;
+}
+
+.brand-mobile img {
+  position: relative;
+  left: -30px;
+}
+
+.hamburger {
+  width: 50px;
+  height: 50px;
+  color: var(--primary);
+  border: none;
+}
+
+.drp-left {
+  left: -100% !important;
+  transition: 0.3s;
+}
+
+.dropdown {
+  width: 100%;
+  left: 0%;
+  position: absolute;
+  z-index: 6;
+  background: var(--secondary-text);
+  top: 0;
+  height: 100%;
+  transition: 0.3s;
+
+}
+
+.holder {
+  height: 50%;
+}
+
+.dropdown ul {
+  list-style-type: none;
+}
+
+.dropdown ul li a {
+  text-transform: capitalize;
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: var(--primary-text);
+  width: 100%;
+  padding-left: 20px;
+}
+
+.social-mobile {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  gap: 30px;
+  margin-left: 20px;
+}
+
+.social-mobile a {
+  width: 60px;
+  height: 60px;
+  background: var(--primary);
+  color: var(--secondary-text);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.social-mobile a i {
+  font-size: 1.2rem;
+
+}
+
+.hamburger i {
+  font-size: 1.3rem;
+}
+
+
+.brand {
+  width: 200px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+
+.brand img {
+  width: 100%;
+  height: 90%;
+  object-fit: contain;
+}
+
+.contact-no a {
+  color: var(--primary-text);
+  text-decoration: none;
+}
+
+.hero-text h1 {
+  color: var(--secondary-text);
+}
+
+.hero-background {
+  padding-top: 50px;
+  background: var(--primary);
+}
+
+.hero-image {
+  position: relative;
+  z-index: 2;
+  height: 400px;
+}
+
+.hero-image img {
+
+  position: relative;
+  align-self: flex-end;
+}
+
+.social {
+  width: 100%;
+  height: 100%;
+  /* background-color: var(--secondary-text); */
+  left: 0%;
+  top: 0%;
+  overflow: hidden;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.z-plc {
+  position: relative;
+  z-index: 5;
+}
+
+.social a {
+  width: 180px;
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+  background: var(--secondary-text);
+  color: var(--primary-text);
+  text-decoration: none;
+  text-transform: capitalize;
+  gap: 30px;
+  position: relative;
+  z-index: 4;
+  left: 120px;
+  margin: 10px 0px;
+  padding: 10px 10px;
+  transition: 0.5s;
+}
+
+.icon-text {
+  margin-right: 5px;
+  font-family: var(--heading-font);
+  font-size: 1.2rem;
+}
+
+.social a:hover {
+  left: 0%;
+}
+
+.social i {
+  display: flex;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: var(--primary);
+  color: var(--secondary-text);
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+}
+
+.placement-button {
+
+  width: 190px;
+  height: 52px;
+  background: var(--secondary);
+  color: var(--primary-text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  border-radius: 8px;
+  text-transform: capitalize;
+  margin-top: 50px;
+}
+
+.placement-button:hover {
+  color: var(--primary-text);
+  box-shadow: 0px 0px 0px 5px rgba(252, 217, 0, 0.4);
+}
+
+.top-course {
+  background: var(--grey);
+}
+
+
+.top-course {
+  /* padding: 100px 0; */
+  padding: 100px 0px 70px 0px;
+}
+
+.top-courses {
+  text-align: center;
+  background: var(--secondary-text);
+  padding: 10px 0 20px 0;
+  border-radius: 10px;
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.4);
+  position: relative;
+}
+
+.top-courses img {
+  width: 90% !important;
+}
+
+.top-courses figcaption {
+  margin-top: 10px;
+}
+
+.top-courses figcaption a {
+  color: var(--primary);
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+.course-p {
+  text-transform: capitalize;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.course-p a {
+  text-decoration: none;
+  color: var(--primary);
+}
+
+.main-card-service {
+  width: 98%;
+  margin: 0 auto;
+  min-height: 350px;
+  padding: 0 20px;
+  background: var(--secondary-text);
+  display: flex;
+  /* justify-content: space-evenly; */
+  flex-direction: column;
+}
+
+.main-card-service figcaption {
+  margin-top: 40px;
+}
+
+.icon-holder i {
+  font-size: 30px;
+}
+
+.icon-holder {
+  margin-top: 20px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--primary);
+  color: var(--secondary);
+}
+
+.why-choose,
+.placements, .tranding-location {
+  padding: 70px 0 70px 0;
+  background: var(--grey);
+}
+
+.why-choose h2 {
+  text-transform: capitalize;
+  color: var(--primary);
+  margin-bottom: 30px;
+}
+
+.about-us,
+.reviews {
+  padding: 100px 0;
+}
+
+.about-us h2,
+.placements h2,
+.reviews h2 {
+  color: var(--primary);
+}
+
+.placements h2,
+.reviews h2 {
+  margin-bottom: 30px;
+}
+
+.placements {
+  background: transparent;
+}
+
+.placement-cell {
+  min-height: 380px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  transition: 0.4s;
+  /* background: var(--grey); */
+}
+
+.placement-cell h4 {
+  color: var(--secondary);
+}
+
+.placement-cell:hover {
+  background-color: var(--primary);
+  color: var(--secondary-text);
+}
+
+.placement-cell figcaption {
+  padding: 20px;
+
+}
+
+
+.placement-anchor {
+  margin-top: 30px;
+  display: inline-block;
+  text-decoration: none;
+  color: var(--primary);
+}
+
+.counter {
+  background: var(--primary);
+}
+
+.counter-container {
+  width: 97%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: var(--secondary-text);
+  text-align: center;
+  height: 150px;
+  /* backdrop-filter: blur(20px) saturate(27%); */
+  /* -webkit-backdrop-filter: blur(8px) saturate(27%); */
+  /* background: linear-gradient(35deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 0.4)); */
+  /* border-radius: 12px; */
+  /* border: 1px solid rgba(255, 255, 255, 0.5); */
+}
+
+.r-img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.r-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.r-info {
+  margin-left: 30px;
+}
+
+.r-info span {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.quotes i {
+
+  font-size: 4.6rem;
+  margin-left: 20px;
+  color: rgba(0, 0, 0, 0.3);
+}
+
+.review-container {
+  border: 2px solid var(--primary);
+  border-radius: 10px;
+  padding: 50px 20px;
+}
+
+.review-person-container {
+  margin-top: 40px;
+  display: flex;
+  height: 50px;
+  align-items: center;
+}
+
+.reviews {
+  padding-top: 50px;
+}
+
+.reviews h2 {
+  margin-bottom: 50px;
+}
+
+.wp {
+  width: 235px;
+  border-radius: 10px;
+  margin: 0 auto;
+  /* background: var(--whatsapp); */
+  background: var(--dark-green);
+  color: var(--secondary-text);
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.wp:hover {
+  box-shadow: 0px 0px 0px 5px rgba(35, 165, 20, 0.4) !important;
+  color: var(--secondary-text);
+}
+
+.wp i {
+  font-size: 1.2rem;
+}
+
+.whats-app {
+  padding: 50px 0;
+}
+
+.whats-app h2,
+.reviews h2 {
+  color: var(--primary-text);
+}
+
+.footer {
+  background: var(--primary);
+  color: var(--secondary-text);
+  padding: 100px 0 10px 0px;
+}
+
+.footer a,
+.p-list-1 a,
+.p-list-2 a {
+  display: block;
+  margin: 0px 0px 12px 0px;
+  color: var(--secondary-text);
+  text-decoration: none;
+  /* text-transform: capitalize; */
+}
+
+.p-list-1 a,
+.p-list-2 a {
+  width: 80%;
+  color: var(--primary);
+  margin: 25px 0px;
+  border-bottom: 1px solid var(--grey);
+}
+
+
+.footer a:hover {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+.footer h4 {
+  margin: 0px 0px 20px 0px;
+  font-weight: 600;
+  font-size: 1.2rem;
+  text-transform: capitalize;
+}
+
+.tranding-location {
+  background: var(--grey);
+}
+
+.map-holder {
+  height: 200px;
+  overflow: hidden;
+}
+
+.more-maps {
+  position: relative;
+  /* top:200px; */
+}
+
+.branch-location {
+  letter-spacing: 1px;
+}
+
+address p {
+  margin-bottom: 4px;
+}
+
+.line {
+  height: 1px;
+  background: var(--secondary-text);
+  margin-top: 30px;
+}
+
+.copy-a {
+  text-decoration: underline !important;
+  padding-bottom: 2px;
+}
+
+.copy-right {
+  margin-top: 23px;
+}
+
+.holder-call-wp-social {
+  gap: 30px;
+}
+
+.call-nav {
+  height: 0px;
+  margin-left: 20px;
+}
+
+.whats-app-div {
+  margin-left: 20px;
+}
+
+.call-nav a {
+  color: var(--primary-text);
+  text-decoration: none;
+}
+
+.holder-call-wp-social {
+  width: 100%;
+}
+
+.course-snapshot {
+  background: var(--primary);
+  padding: 40px 20px 40px 20px;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.course-snapshot h2 {
+  text-align: center;
+  color: var(--secondary-text);
+  font-size: 1.5rem;
+  margin-bottom: 60px;
+
+}
+
+.course-snapshot h3 {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: var(--secondary-text);
+  margin-top: 20px;
+}
+
+.course-snapshot p {
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 5px;
+}
+
+.course-data {
+  padding: 100px 0;
+}
+
+.special-p {
+  margin-top: 40px;
+}
+
+.course-snapshot a {
+  margin-top: 10px;
+}
+
+.placement-course {
+  width: 90%;
+  height: 55px;
+  border-radius: 10px;
+  /* background: var(--primary); */
+  background: var(--secondary-text);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  /* color: var(--secondary-text); */
+  color: var(--primary);
+  border: 1px solid var(--primary);
+  text-transform: capitalize;
+  margin: 20px auto;
+}
+
+.placement-course:hover {
+  /* color: var(--secondary-text); */
+  box-shadow: 0px 0px 0px 5px rgba(3, 83, 151, 0.4);
+}
+
+.short-features span {
+  color: var(--primary);
+  margin-right: 10px;
+}
+
+.short-features {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.course-desc h2 {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+
+.course-desc h3 {
+  font-size: 1.1rem;
+  text-transform: capitalize;
+}
+
+.trainer {
+  /* width:83%; */
+  margin: 0 auto;
+}
+
+.trainer img {
+  /* width:100% !important; */
+  height: 200px !important;
+  object-fit: contain;
+  margin-bottom: 20px;
+  position: relative;
+  width: 99%;
+}
+
+.instructor {
+  width: 50%;
+  margin: 30px auto;
+}
+
+.instructor h3 {
+  font-size: 1.5rem;
+}
+
+.trainer p {
+  margin-bottom: 7px;
+}
+
+/* .course-holder-desi {
+    color: rgba(0, 0, 0, 0.5);
+} */
+
+.port h3 {
+  font-size: 1.3rem;
+}
+
+.breadcrumb-web {
+  position: relative;
+  z-index: 6;
+}
+
+.breadcrumb-web a {
+  text-decoration: none;
+  color: var(--secondary-text);
+}
+
+.breadcrumb-web a::after {
+  content: ' / ';
+  display: inline;
+}
+
+.breadcrumb-web span {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.founders {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.classroom-img {
+  width: 100%;
+  height: 300px;
+}
+
+.profile-holder-team {
+  width: 98%;
+  margin: 0 auto;
+}
+
+.holder-place-image {
+  width: 98%;
+  margin: 0 auto;
+}
+
+.holder-place-image img {
+  width: 100%;
+  height: auto;
+}
+
+.record {
+  padding: 100px 0;
+}
+
+.lds-facebook {
+  display: inline-block;
+  position: relative;
+  width: 80px;
+  height: 80px;
+}
+
+.lds-facebook div {
+  display: inline-block;
+  position: absolute;
+  left: 8px;
+  width: 16px;
+  background: var(--primary);
+  animation: lds-facebook 1.2s cubic-bezier(0, 0.5, 0.5, 1) infinite;
+}
+
+.lds-facebook div:nth-child(1) {
+  left: 8px;
+  animation-delay: -0.24s;
+}
+
+.lds-facebook div:nth-child(2) {
+  left: 32px;
+  animation-delay: -0.12s;
+}
+
+.lds-facebook div:nth-child(3) {
+  left: 56px;
+  animation-delay: 0;
+}
+
+@keyframes lds-facebook {
+  0% {
+    top: 8px;
+    height: 64px;
+  }
+
+  50%,
+  100% {
+    top: 24px;
+    height: 32px;
+  }
+}
+
+.loader {
+  height: 60px;
+  margin: 0 auto;
+}
+
+.custom-width-download {
+  width: 90%;
+  min-height: 100px;
+  padding: 20px;
+  color: var(--secondary-text);
+  background: var(--primary);
+  border-radius: 10px;
+}
+
+.inputs-ecti,
+select {
+  width: 100%;
+  height: 40px;
+  border: 1px solid var(--primary) !important;
+  border-radius: 0px !important;
+  padding-left: 10px;
+}
+
+.inputs-ecti:focus,
+select:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  background: var(--grey);
+}
+
+.course,
+.name,
+.ph-no,
+.email {
+  margin: 30px 0;
+}
+
+.main-pages {
+  padding: 100px 0;
+}
+
+.main-pages a {
+  display: block;
+  color: var(--primary);
+  /* text-transform: capitalize; */
+  text-decoration: none;
+  margin: 20px 0;
+}
+
+.main-pages h2 {
+  font-size: 1.3rem;
+  text-transform: capitalize;
+}
+
+.wrapper-not {
+  width: 100%;
+  height: 100vh;
+  background: var(--primary);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: var(--secondary);
+}
+
+.counter-container p {
+  text-transform: capitalize;
+}
