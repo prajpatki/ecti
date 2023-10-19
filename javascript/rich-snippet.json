@@ -1,0 +1,53 @@
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "image": [
+    "https://ecti.co.in/assets/images/illustrations/loc/ECTI-bib-3.webp",
+    "https://ecti.co.in/assets/images/illustrations/loc/ECTI-bib-6.webp",
+    "https://ecti.co.in/assets//images/illustrations//loc/ECTI-bib-5.webp"
+  ],
+  "name": "Envision Computer Training Institute Private Limited Pune",
+  "address": [
+    {
+      "@type": "PostalAddress",
+      "streetAddress": "Plot No.3, Yasho Parva, 1st Floor, Shree Sant Eknath Nagar Part I, Near Rajarshi Shahu Bank",
+      "addressLocality": "Pune",
+      "addressRegion": "Bibwewadi",
+      "postalCode": "411037",
+      "addressCountry": "India"
+    },
+    {
+      "@type": "PostalAddress",
+      "streetAddress": "2nd Floor, Dnyaneshwar Paduka Chowk, Indraraj Apartment, Next to Hotel Sheetal, Revenue Colony",
+      "addressLocality": "Pune",
+      "addressRegion": "Shivajinagar",
+      "postalCode": "411005",
+      "addressCountry": "India"
+    }
+  ],
+  
+  "geo": [
+    {
+      "@type": "GeoCoordinates",
+      "latitude": "18.4741454",
+      "longitude": "73.8601754"
+    }
+  ],
+  "url": "https://www.ecti.co.in",
+  "telephone": "+917498713536",
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday",
+        "Saturday"
+      ],
+      "opens": "09:00",
+      "closes": "17:00"
+    }
+  ]
+}

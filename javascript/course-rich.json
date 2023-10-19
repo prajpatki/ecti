@@ -1,0 +1,246 @@
+{
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@type": "Course",
+            "url":"https://ecti.co.in/full-stack-development-course-java-in-pune.html",
+            "name": "Full Stack Development Course - Java in Pune",
+            "description": "100% Job Guaranteed Full Stack Development Java Course in Pune",
+            "provider": {
+              "@type": "Organization",
+              "name": "Envision Computer Training Institute Private Limited Pune",
+              "sameAs": "https://ecti.co.in/"
+           }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@type": "Course",
+            "url":"https://ecti.co.in/web-development-course-in-pune.html",
+            "name": "Web Development Course in Pune",
+            "description": "100% Job Guaranteed Web Development Course in Pune",
+            "provider": {
+              "@type": "Organization",
+              "name": "Envision Computer Training Institute Private Limited Pune",
+              "sameAs": "https://ecti.co.in/"
+           }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@type": "Course",
+            "url":"https://ecti.co.in/autodesk-alias-training-in-pune.html",
+            "name": "Autodesk Alias Training in Pune",
+            "description": "100% Job Guaranteed Autodesk Alias Course in Pune",
+            "provider": {
+              "@type": "Organization",
+              "name": "Envision Computer Training Institute Private Limited Pune",
+              "sameAs": "https://ecti.co.in/"
+           }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@type": "Course",
+            "url":"https://ecti.co.in/embedded-systems-programming-in-pune.html",
+            "name": "Embedded Systems Programming in Pune",
+            "description": "100% Job Guaranteed Embedded Systems Programming Course in Pune",
+            "provider": {
+              "@type": "Organization",
+              "name": "Envision Computer Training Institute Private Limited Pune",
+              "sameAs": "https://ecti.co.in/"
+           }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@type": "Course",
+            "url":"https://ecti.co.in/full-stack-development-course-dotnet-in-pune.html",
+            "name": "Full Stack Development Course - DotNet  in Pune",
+            "description": "100% Job Guaranteed Full Stack Development Dot Net Course in Pune",
+            "provider": {
+              "@type": "Organization",
+              "name": "Envision Computer Training Institute Private Limited Pune",
+              "sameAs": "https://ecti.co.in/"
+           }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@type": "Course",
+            "url":"https://ecti.co.in/full-stack-development-course-php-in-pune.html",
+            "name": "Full Stack Development Course - PHP in Pune",
+            "description": "100% Job Guaranteed Full Stack Development PHP Course in Pune",
+            "provider": {
+              "@type": "Organization",
+              "name": "Envision Computer Training Institute Private Limited Pune",
+              "sameAs": "https://ecti.co.in/"
+           }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "item": {
+            "@type": "Course",
+            "url":"https://ecti.co.in/interior-design-course-in-pune.html",
+            "name": "Interior Design Course in Pune",
+            "description": "100% Job Guaranteed Interior Design Course in Pune",
+            "provider": {
+              "@type": "Organization",
+              "name": "Envision Computer Training Institute Private Limited Pune",
+              "sameAs": "https://ecti.co.in/"
+           }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "item": {
+            "@type": "Course",
+            "url":"https://ecti.co.in/cad-training-in-pune.html",
+            "name": "CAD Training in Pune",
+            "description": "100% job guaranteed CAD Training in Pune",
+            "provider": {
+              "@type": "Organization",
+              "name": "Envision Computer Training Institute Private Limited Pune",
+              "sameAs": "https://ecti.co.in/"
+           }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 9,
+          "item": {
+            "@type": "Course",
+            "url":"https://ecti.co.in/java-course-in-pune.html",
+            "name": "Java Course in Pune",
+            "description": "Java Course in Pune with 100% Job Assistance",
+            "provider": {
+              "@type": "Organization",
+              "name": "Envision Computer Training Institute Private Limited Pune",
+              "sameAs": "https://ecti.co.in/"
+           }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 10,
+          "item": {
+            "@type": "Course",
+            "url":"https://ecti.co.in/dot-net-course-in-pune.html",
+            "name": "Dot Net Course in Pune",
+            "description": "Dot Net Course in Pune with 100% Job Assistance",
+            "provider": {
+              "@type": "Organization",
+              "name": "Envision Computer Training Institute Private Limited Pune",
+              "sameAs": "https://ecti.co.in/"
+           }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 11,
+          "item": {
+            "@type": "Course",
+            "url":"https://ecti.co.in/php-course-in-pune.html",
+            "name": "PHP Course in Pune",
+            "description": "PHP Course in Pune with 100% Job Assistance",
+            "provider": {
+              "@type": "Organization",
+              "name": "Envision Computer Training Institute Private Limited Pune",
+              "sameAs": "https://ecti.co.in/"
+           }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 12,
+          "item": {
+            "@type": "Course",
+            "url":"https://ecti.co.in/autocad-course-in-pune.html",
+            "name": "AutoCAD Course in Pune",
+            "description": "AutoCAD Course in Pune with 100% Job Assistance",
+            "provider": {
+              "@type": "Organization",
+              "name": "Envision Computer Training Institute Private Limited Pune",
+              "sameAs": "https://ecti.co.in/"
+           }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 13,
+          "item": {
+            "@type": "Course",
+            "url":"https://ecti.co.in/3ds-max-course-in-pune.html",
+            "name": "3ds Max Course in Pune",
+            "description": "3ds Max Course in Pune with 100% Job Assistance",
+            "provider": {
+              "@type": "Organization",
+              "name": "Envision Computer Training Institute Private Limited Pune",
+              "sameAs": "https://ecti.co.in/"
+           }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 14,
+          "item": {
+            "@type": "Course",
+            "url":"https://ecti.co.in/sketchup-training-in-pune.html",
+            "name": "Sketchup Training in Pune",
+            "description": "Sketchup Course in Pune with 100% Job Assistance",
+            "provider": {
+              "@type": "Organization",
+              "name": "Envision Computer Training Institute Private Limited Pune",
+              "sameAs": "https://ecti.co.in/"
+           }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 15,
+          "item": {
+            "@type": "Course",
+            "url":"https://ecti.co.in/revit-architecture-course-in-pune.html",
+            "name": "Revit Acrhitecture Course in Pune",
+            "description": "Revit Architecture Course in Pune with 100% Job Assistance",
+            "provider": {
+              "@type": "Organization",
+              "name": "Envision Computer Training Institute Private Limited Pune",
+              "sameAs": "https://ecti.co.in/"
+           }
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 16,
+          "item": {
+            "@type": "Course",
+            "url":"https://ecti.co.in/ui-ux-design-course-in-pune.html",
+            "name": "UI UX Design Course in Pune",
+            "description": "100% Job Guaranteed UI UX Deisgn Course in Pune",
+            "provider": {
+              "@type": "Organization",
+              "name": "Envision Computer Training Institute Private Limited Pune",
+              "sameAs": "https://ecti.co.in/"
+           }
+          }
+        }
+      ]
+    }
